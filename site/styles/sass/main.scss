@@ -12,8 +12,19 @@ body{ font-family: 'Roboto', sans-serif; }
 .caption p {
 	font-weight: 300;
 	font-size: 14px;
+	line-height: 23px;
 	color: #4E4E4E;
 }
+h1{
+	font-weight: 300;
+	color: #232F48;
+}
+p.slogan{
+	font-size: 16px;
+	font-weight: 300;
+	color: #4E4E4E;
+}
+
 h2.section-title{
 	font-weight: 300;
 	font-size: 28px;
@@ -30,14 +41,49 @@ footer{
 	width: 100%;
 	color: #FFF;
 }
-footer a {
+footer {
 	color: #FFF;
+	padding-top:45px;
+	p{
+		font-size: 13px;
+		margin-top: 20px;
+		font-weight: 300;
+		margin-bottom: 0px;
+	}
+	a{
+		font-size: 13px;
+		display: inline-block;
+		padding: 12px;
+		color: #FFF;
+		&:hover{ color: #FFF;}
+	}
 }
 
-@media only screen and (min-width:480px) and (max-width: 640px)  {
+@media only screen and (min-width:320px) and (max-width: 640px)  {
+	.jumbotron{
+		background:url('../../images/bg-hero.jpg');
+		background-size: cover;
+		background-position: center top;
+	}
 	.caption {
 		padding: 0 10%;
+		margin-top: 0;
 	}
+	.icon-feature{
+		font-size: 150px;
+		line-height: 110px;
+	}
+	h1{
+		font-size: 26px;
+	}
+	h2.section-title{
+		font-size: 19px;
+		font-weight: 100;
+	}
+	.img-responsive{
+		padding: 5px;
+	}
+
 }
 @media only screen and (min-width:641px) and (max-width: 768px)  {
 	.caption {
