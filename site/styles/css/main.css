@@ -1,0 +1,44 @@
+body {
+  font-family: 'Roboto', sans-serif; }
+
+.jumbotron {
+  background: url("../../images/bg-hero.jpg");
+  background-size: cover; }
+
+.icon-feature {
+  text-align: center !important;
+  font-size: 160px;
+  display: block;
+  margin: 2rem auto; }
+
+.caption p {
+  font-weight: 300;
+  font-size: 14px;
+  color: #4E4E4E; }
+
+h2.section-title {
+  font-weight: 300;
+  font-size: 28px;
+  color: #232F48;
+  text-align: center;
+  margin-top: 32px; }
+
+.info-section {
+  padding-bottom: 62px; }
+
+footer {
+  background: #222E49;
+  padding: 3rem 0;
+  width: 100%;
+  color: #FFF; }
+
+footer a {
+  color: #FFF; }
+
+@media only screen and (min-width: 480px) and (max-width: 640px) {
+  .caption {
+    padding: 0 10%; } }
+
+@media only screen and (min-width: 641px) and (max-width: 768px) {
+  .caption {
+    padding: 0 25%; } }
