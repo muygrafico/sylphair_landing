@@ -1,3 +1,14 @@
+.small {
+  font-size: 0.9em !important;
+  line-height: 2em !important;
+  letter-spacing: 0.2px; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.font-light {
+  font-weight: 300; }
+
 body {
   font-family: "Roboto", sans-serif; }
 
@@ -13,8 +24,8 @@ body {
 
 .caption p {
   font-weight: 300;
-  font-size: 14px;
-  line-height: 23px;
+  font-size: 17px;
+  line-height: 28px;
   color: #4E4E4E; }
 
 .phones {
@@ -44,6 +55,18 @@ h2.section-title {
   color: #232F48;
   text-align: center;
   margin-top: 32px; }
+
+p.section-paragraph {
+  max-width: 900px;
+  padding: 0 20px;
+  text-align: center;
+  margin: 30px auto 40px auto;
+  font-weight: 300;
+  color: #555555; }
+  @media only screen and (min-width: 960px) {
+    p.section-paragraph {
+      line-height: 26px;
+      font-size: 16px; } }
 
 .info-section {
   padding-bottom: 62px; }
