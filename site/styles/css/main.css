@@ -68,18 +68,27 @@ p.section-paragraph {
       line-height: 26px;
       font-size: 16px; } }
 
+p.section-paragraph.legal-letter {
+  margin-top: 6em;
+  font-size: 0.86em;
+  line-height: 1.72em; }
+
 .info-section {
   padding-bottom: 62px; }
 
 footer {
+  color: #FFF;
+  padding-top: 45px;
   background: #222E49;
   padding: 3rem 0;
   width: 100%;
   color: #FFF; }
-
-footer {
-  color: #FFF;
-  padding-top: 45px; }
+  footer ul {
+    list-style: none; }
+    footer ul li {
+      margin: 10px 0; }
+    footer ul img {
+      margin-bottom: 16px; }
   footer p {
     font-size: 13px;
     margin-top: 20px;
@@ -88,8 +97,10 @@ footer {
   footer a {
     font-size: 13px;
     display: inline-block;
-    padding: 12px;
-    color: #FFF; }
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    color: #FFF;
+    font-weight: lighter;
+    letter-spacing: 1px; }
     footer a:hover {
       color: #FFF; }
 

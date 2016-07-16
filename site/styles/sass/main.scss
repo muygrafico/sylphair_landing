@@ -62,18 +62,28 @@ p.section-paragraph{
  	}
 
 }
+
+p.section-paragraph.legal-letter{
+  margin-top: 6em;
+  font-size: 0.86em;
+  line-height: 1.72em;
+}
 .info-section{
 	padding-bottom: 62px;
 }
-footer{
-	background: #222E49;
-	padding: 3rem 0;
-	width: 100%;
-	color: #FFF;
-}
+
 footer {
 	color: #FFF;
 	padding-top:45px;
+  background: #222E49;
+  padding: 3rem 0;
+  width: 100%;
+  color: #FFF;
+  ul{
+    list-style: none;
+    li{margin: 10px 0}
+    img{margin-bottom: 16px;}
+  }
 	p{
 		font-size: 13px;
 		margin-top: 20px;
@@ -83,8 +93,11 @@ footer {
 	a{
 		font-size: 13px;
 		display: inline-block;
-		padding: 12px;
+		// padding: 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
 		color: #FFF;
+    font-weight: lighter;
+    letter-spacing: 1px;
 		&:hover{ color: #FFF;}
 	}
 }
