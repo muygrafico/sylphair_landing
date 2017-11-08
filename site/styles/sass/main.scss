@@ -31,6 +31,12 @@ body{ font-family: $font }
 	font-family: $font;
 	position: relative;
 	top:-30px;
+	@media only screen and (min-width:1200px) {
+		left: -30px;
+		margin-right: 0px;
+ 	}
+
+
 }
 h1{
 	font-weight: 300;
@@ -149,12 +155,23 @@ footer {
 		padding: 0 25%;
 	}
 }
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	// background: red;
+	height: 350px;
+}
+.height-100 {
+	height: 100% !important;
+	position: relative;
+}
 @media only screen and (min-width:992px)  {
 	.left-hero{
 		// background: rgba(25,255,255,0.3);
-		margin-top: 100px;
-		height: 100px;
-		display: inline-block;
+		// margin-top: 100px;
+		// height: 100px;
+		// display: inline-block;
 		#download-android, #download-ios{
 			max-width: 168px;
 		}
@@ -182,7 +199,7 @@ footer {
 	h1 {
 		display: inline-block;
 		font-size: 42px !important;
-		margin:0 0 15px 15px !important;
+		// margin:0 0 0 15px !important;
 		padding: 0 0 20px;
 		padding: 0;
 		margin:0;
@@ -191,7 +208,7 @@ footer {
 	}
 	p.slogan{
 		font-size: 24px;
-		margin:0 0 0 15px !important;
+		// margin:0 0 0 15px !important;
 		padding: 0;
 		br {display: none}
 	}
