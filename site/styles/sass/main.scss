@@ -46,6 +46,17 @@ p.slogan{
 	font-size: 16px;
 	font-weight: 300;
 	color: #4E4E4E;
+	margin-bottom: -1px;
+}
+p.slogan-2{
+	margin-top: 0;
+	font-size: 26px;
+	font-weight: 100;
+	color: #4E4E4E;
+	font-family: $font;
+	letter-spacing: 1px;
+	// text-transform: uppercase;
+
 }
 p.version{
   display: inline-block;
@@ -216,15 +227,17 @@ footer {
 }
 @media only screen and (min-width:641px) and (max-width: 991px)  {
 	h1{text-align: center; font-size: 48px !important;}
+
  	p.slogan{
- 		font-size: 24px;
+ 		// font-size: 24px;
+		text-align: left;
  	}
  	.ios-icon{
-		padding-top: 40px;
-		width: 80px;
+		// padding-top: 40px;
+		// width: 80px;
 	}
 	.jumbotron{
-		padding: 40px 0 60px 0;
+		// padding: 40px 0 60px 0;
 	}
 }
 @media only screen and (min-width:320px) and (max-width: 991px)  {
@@ -261,6 +274,31 @@ footer {
 
 .coming-soon-content {
 	display: flex;
+	@media only screen and (min-width:320px) and (max-width: 991px)  {
+		display: inline-block;
+		text-align: center;
+
+		.icon-coming-soon {
+			margin: 0 auto;
+		}
+
+		p.slogan{
+			font-size: 20px;
+			margin-top: 0;
+		}
+
+		p.slogan-2{
+			margin-top: 0;
+			font-size: 20px;
+			font-weight: 100;
+			color: #4E4E4E;
+			font-family: $font;
+			letter-spacing: 1px;
+			text-transform: none;
+			margin-top: 5px;
+
+		}
+	}
 }
 
 .icon-coming-soon {
